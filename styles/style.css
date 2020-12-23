@@ -25,14 +25,81 @@
   z-index: 0;
 }
 
-.top-menu {
+/* .left-menu {
   box-sizing: border-box;
   border: 1px solid black;
 }
 
-.left-menu {
+.left-menu__links {
+  list-style: none;
+} */
+
+.top-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  list-style: none;
+  background-color: white;
+  z-index: 2;
   box-sizing: border-box;
   border: 1px solid black;
+  list-style: none;
+}
+
+
+
+.top-menu__links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-menu__navigation-container {
+  list-style: none;
+  min-width: 350px; 
+  display: flex;
+  padding: 0;
+  margin-left: 5px;
+}
+
+.top-menu__social-container {
+  list-style: none;
+  min-width: 350px; 
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.top-menu__item {
+  margin-left: 10px;
+}
+
+.top-menu__link {
+  display: flex;
+  text-decoration: none;
+  color: black
+}
+
+.top-menu__icon {
+  width: 40px;
+}
+
+.top-menu__link-text {
+  margin-left: 5px;
+  width: 0;
+  overflow: hidden;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.top-menu__item:hover .top-menu__link-text {
+  width: 120px;
+
 }
 
 .fullscreen-photo {
@@ -53,11 +120,13 @@
 
 }
 
+
 .fullscreen-photo__img {
   max-height: 100%;
   max-width: 100%;
   border: 1px solid black;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .fullscreen-photo__buttons-container {
@@ -72,18 +141,26 @@
 
 .fullscreen-photo__nav-buttons {
   display: flex;
-  justify-content: space-between;
 }
+
+
 
 .fullscreen-photo__button {
   margin: 0;
   color: black;
   text-decoration: none;
   transition: 0.2s ease-in-out;
+  line-height: 20px;
   font-size: 40px;
-  line-height: 22px;
   font-weight: bold;
-  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.fullscreen-photo__button_close {
+  padding-top: 10px;
 }
 
 .fullscreen-photo__button:hover {
@@ -91,24 +168,14 @@
   color: white;
 }
 
-.top-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 80px;
-  list-style: none;
-  background-color: white;
-  z-index: 2;
+.fullscreen-photo__button:active {
+  outline: none;
+  text-decoration: none;
+  background-color: none;
+
 }
 
-.top-menu__links {
-  list-style: none;
-}
 
-.left-menu__links {
-  list-style: none;
-}
 
 .left-menu {
   position: fixed;
@@ -184,5 +251,15 @@
   .photo-gallery__grid {
     gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media screen and (max-height: 400px)
+{
+  .fullscreen-photo__block{
+    height: 60%;
+  }
+  .top-menu {
+    height: 40px;
   }
 }
