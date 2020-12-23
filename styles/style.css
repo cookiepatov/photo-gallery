@@ -37,8 +37,8 @@
 
 .fullscreen-photo {
   position: fixed;
-  /* left: 100px; */
-  left: 20px;
+  display: flex;
+  justify-content: center;
   height: 100%;
   width:100%;
   z-index: 3;
@@ -46,11 +46,11 @@
 }
 
 .fullscreen-photo__block {
-  padding-left: 10px;
-  position: fixed;
-  top: 10%;
+  position:absolute;
+  top: 10px;
   max-width: 95%;
   height: 80%;
+
 }
 
 .fullscreen-photo__img {
@@ -177,4 +177,12 @@
 
 .hide {
   display: none;
+}
+
+@media screen and (max-width: 820px)
+{
+  .photo-gallery__grid {
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
