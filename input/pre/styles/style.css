@@ -1,0 +1,193 @@
+.root {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+.root__section {
+    width: 80%;
+    margin: auto;
+}
+
+.root__section_margins_top-bottom {
+    margin: 80px auto;
+}
+
+.header {
+    /* сделаем header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.menu__item {
+    color: black;
+    text-decoration: none;
+    /* расстояние между ссылками 20 */
+    margin-right: 20px;
+    
+}
+
+.menu__item:hover {
+    text-decoration: underline;
+}
+
+.menu__item:last-of-type {
+    /* поговорить про обнуление */
+    margin-right: 0;
+}
+
+.cover {
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.root__cover {
+    background-image: url(../images/cover.jpg);
+    /* разместим по центру слона */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cover__image {
+    width: 350px;
+}
+
+
+
+.round {
+    /* положим сверху круг */
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin-left: -300px;
+    margin-top: -300px; */
+    transform: translate(-50%, -50%);
+}
+
+.main-text__paragraph {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.blockquote {
+    margin: 0;
+    border-left: 5px double black;
+}
+
+.blockquote_pos_moved-right {
+    /* сдвинем цитату слева на 60 пикселей */
+    position: relative;
+    left: 60px;
+}
+
+.blockquote__text {
+    font-size: 32px;
+    line-height: 1.2;
+    margin-left: 40px;
+}
+
+.cards {
+    /* поставим карточки в линию с переносом */
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fill, 300px);
+}
+
+.card {
+    width: 300px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px grey;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+}
+
+.card__heading {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card__heading-marker {
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    /* сдвинем маркер на 12 вверх и на 10 влево */
+    position: absolute;
+    top: -12px;
+    left: -10px;
+}
+
+/* внимание на модификаторы */
+.card__heading-marker_type_truth {
+    background-color: green;
+}
+
+.card__heading-marker_type_false {
+    background-color: red;
+}
+
+.card__text {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+.photo-grid {
+    /* сверстаем сетку картинок (600 в высоту, 20 - промежуток) */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    min-height: 600px;
+}
+
+.photo-grid__item {
+    /* подгоним картинки под размеры */
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* поговорим, почему псевдоклассы */
+.photo-grid__item:first-of-type {
+    /* создадим area */
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.photo-grid__item:nth-of-type(4) {
+    /* создадим area */
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.up {
+    /* привяжем вниз вправо 20 20 */
+    margin: 0;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.footer {
+    min-height: 60px;
+    background-color: black;
+}
