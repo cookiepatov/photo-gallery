@@ -96,6 +96,7 @@
 }
 
 .fullscreen-photo {
+  top: 60px;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -265,6 +266,10 @@
   font-weight: 550;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 
 @media screen and (max-width: 820px)
 {
@@ -283,6 +288,9 @@
   .top-menu__icon {
     margin-top: 2px;
     width: 25px;
+  }
+  .fullscreen-photo {
+    top: 42px;
   }
 
   .top-menu__navigation-container {
@@ -341,9 +349,6 @@
 {
   .fullscreen-photo__block{
     height: 60%;
-  }
-  .top-menu {
-    height: 40px;
   }
 
 }

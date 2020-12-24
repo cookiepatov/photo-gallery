@@ -5,6 +5,7 @@ const closeButton = document.querySelector('.fullscreen-photo__button_close');
 const nextButton = document.querySelector('.fullscreen-photo__button_next');
 const prevButton = document.querySelector('.fullscreen-photo__button_previous');
 const fullScreenBackground = document.querySelector('.fullscreen-photo');
+const body = document.querySelector('.body');
 const photoList = getPhotoList();
 let prev;
 let next;
@@ -49,6 +50,7 @@ loadPhoto = (src, hide=1) => {
     if (hide)
     {
         fullphotoBlock.classList.toggle('hide');
+        body.classList.toggle('stop-scrolling');
     }
     fullPhoto.attributes.src.value=getFullRes(src);
     prev=getPreviousPhoto(src);
@@ -58,6 +60,7 @@ loadPhoto = (src, hide=1) => {
 hideFullScreen = (e) => {
     e.preventDefault();
     fullphotoBlock.classList.toggle('hide');
+    body.classList.toggle('stop-scrolling');
 }
 
 
