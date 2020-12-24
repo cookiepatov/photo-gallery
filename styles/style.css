@@ -295,6 +295,7 @@
   margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
@@ -309,7 +310,7 @@
 
 .video-item__caption {
   margin: 0;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 550;
@@ -382,11 +383,6 @@
   {
     opacity: 0.7;
   }
-
-  
-  .video-item {
-    margin-right: 20px;
-  }
   
   .video-item__iframe {
     width: 274px;
@@ -398,7 +394,9 @@
     width: 60vh;
   }
   
-  
+  .video-container {
+    margin-top: 40px;
+    grid-template-columns: repeat(auto-fill, 274px);
 }
 
 @media screen and (max-height: 400px)
