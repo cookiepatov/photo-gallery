@@ -1,0 +1,9 @@
+.photo-gallery__item_type_panoramic {
+    grid-column-start: initial;
+    grid-column-end: span 2;
+    width: 100%;
+}
+  
+.photo-gallery__item_type_panoramic:hover {
+    transform: scale(1.05);
+}

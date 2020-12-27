@@ -1,0 +1,17 @@
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    padding-top: 60px;
+    width: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+@media screen and (max-width: 820px)
+{
+  .content {
+    margin-top: -32px;
+    width: 95%;
+  }
+}

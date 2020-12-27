@@ -1,0 +1,10 @@
+.left-menu {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    height: 100%;
+    width: 100px;
+    list-style: none;
+    background-color: white;
+    z-index: 2;
+}

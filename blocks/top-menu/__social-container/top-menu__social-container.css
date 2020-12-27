@@ -1,0 +1,20 @@
+.top-menu__social-container {
+    list-style: none;
+    min-width: 350px; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 820px)
+{
+  .top-menu__social-container {
+    list-style: none;
+    min-width: 100px; 
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 5px;
+  }
+}

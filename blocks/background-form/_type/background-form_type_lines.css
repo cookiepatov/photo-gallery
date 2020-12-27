@@ -1,0 +1,6 @@
+.background-form_type_lines {
+    left: -50px;
+    top: 80px;
+    width: 100vh;
+    transform: scaleX(1.5) rotate(-25deg);
+  }

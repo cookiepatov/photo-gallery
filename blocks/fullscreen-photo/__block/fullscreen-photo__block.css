@@ -1,0 +1,13 @@
+.fullscreen-photo__block {
+    position:absolute;
+    top: 10px;
+    max-width: 95%;
+    height: 80%;
+}
+
+@media screen and (max-height: 400px)
+{
+  .fullscreen-photo__block{
+    height: 60%;
+  }
+}

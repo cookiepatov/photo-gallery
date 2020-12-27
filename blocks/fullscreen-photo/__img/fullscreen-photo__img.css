@@ -1,0 +1,7 @@
+.fullscreen-photo__img {
+    max-height: 100%;
+    max-width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0;
+}

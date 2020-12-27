@@ -1,0 +1,9 @@
+.photo-gallery__item_type_long {
+    grid-row-start: initial;
+    grid-row-end: span 2;
+    height: 100%;
+  }
+  
+.photo-gallery__item_type_long:hover {
+    transform: scale(1.05);
+}

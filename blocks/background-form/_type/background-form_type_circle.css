@@ -1,0 +1,17 @@
+@keyframes pulse {
+    from {
+      transform:scale(0.8);
+    }
+  
+    to {
+      transform:scale(0.85);
+    }
+}
+   
+  
+  
+
+.background-form_type_circle {
+    bottom: -1vh;
+    animation: 1s infinite alternate ease-in-out pulse;
+}

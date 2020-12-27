@@ -1,0 +1,33 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/top-menu/top-menu.css);
+@import url(../blocks/top-menu/__navigation-container/top-menu__navigation-conainer.css);
+@import url(../blocks/top-menu/__item/top-menu__item.css);
+@import url(../blocks/top-menu/__icon/top-menu__icon.css);
+@import url(../blocks/top-menu/__links/top-menu__links.css);
+@import url(../blocks/top-menu/__link/top-menu__link.css);
+@import url(../blocks/top-menu/__link-text/top-menu__link-text.css);
+@import url(../blocks/top-menu/__social-container/top-menu__social-container.css);
+
+@import url(../blocks/background-forms-container/background-forms-container.css);
+
+@import url(../blocks/background-form/background-form.css);
+@import url(../blocks/background-form/_type/background-form_type_circle.css);
+@import url(../blocks/background-form/_type/background-form_type_lines.css);
+@import url(../blocks/background-form/_type/background-form_type_triangle.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/video-container/video-container.css);
+
+@import url(../blocks/video-item/video-item.css);
+@import url(../blocks/video-item/__iframe/video-item__iframe.css);
+@import url(../blocks/video-item/__caption/video-item__caption.css);
+
+@import url(../blocks/footer/footer.css);

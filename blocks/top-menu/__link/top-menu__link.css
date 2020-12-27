@@ -1,0 +1,12 @@
+.top-menu__link {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 820px)
+{
+  .top-menu__link {
+    flex-direction: column;
+  }
+}

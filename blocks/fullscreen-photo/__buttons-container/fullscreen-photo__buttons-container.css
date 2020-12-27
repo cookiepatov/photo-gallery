@@ -1,0 +1,9 @@
+.fullscreen-photo__buttons-container {
+    display: flex;
+    justify-content:space-between;
+    padding: 0;
+    background-color: white;
+    margin-top: -5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
