@@ -1,0 +1,10 @@
+.fullscreen-photo__button_type_previous {
+    background-image: url(../../../../icons/arrow.svg);
+    height: 250px;
+    width: 250px;
+    transform: rotate(180deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}

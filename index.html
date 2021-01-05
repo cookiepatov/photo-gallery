@@ -10,71 +10,64 @@
 <body class="body">
   <div class="root">
     <header class="header">
-      <nav class="top-menu">
-        <ul class="top-menu__links">
-          <li>
-            <ul class="top-menu__navigation-container">
-              <li class="top-menu__item">
-                <a class="top-menu__link" href="/index.html">
-                  <img src="./icons/photo-camera.svg" class="top-menu__icon"></img>
-                  <p class="top-menu__link-text">Фотоснимки</p>
-                </a>
-              </li>
-              <li class="top-menu__item">
-                <a class="top-menu__link" href="./videos.html">
-                  <img src="./icons/play-button.svg" class="top-menu__icon"></img>
-                  <p class="top-menu__link-text">Видеоклипы</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul class="top-menu__social-container">
-              <li class="top-menu__item">
-                <a class="top-menu__link" href="https://vk.com/reinat" target="_blank">
-                  <img src="./icons/vk-logo.svg" class="top-menu__icon"></img>
-                  <p class="top-menu__link-text">Вконтакте</p>
-                </a>
-              </li>
-              <li class="top-menu__item">
-                <a class="top-menu__link" href="https://www.instagram.com/cookiepatov/" target="_blank">
-                  <img src="./icons/instagram-logo.svg" class="top-menu__icon"></img>
-                  <p class="top-menu__link-text">Instagramm</p>
-                </a>
-              </li>
-              <li class="top-menu__item">
-                <a class="top-menu__link" href="https://www.youtube.com/channel/UC0MiWN7XqUyHK64XtUZkCgw"
-                  target="_blank">
-                  <img src="./icons/youtube-logo.svg" class="top-menu__icon"></img>
-                  <p class="top-menu__link-text">YouTube</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <!--       <nav class="left-menu">
-        <ul class="left-menu__links">
-          <li></li>
-        </ul>
-      </nav> -->
+      <div class="overlay-container">
+        <nav class="top-menu">
+          <ul class="top-menu__links">
+            <li>
+              <ul class="top-menu__navigation-container">
+                <li class="top-menu__item">
+                  <a class="top-menu__link" href="/index.html">
+                    <img src="./icons/photo-camera.svg" class="top-menu__icon"></img>
+                    <p class="top-menu__link-text">Фотоснимки</p>
+                  </a>
+                </li>
+                <li class="top-menu__item">
+                  <a class="top-menu__link" href="./videos.html">
+                    <img src="./icons/play-button.svg" class="top-menu__icon"></img>
+                    <p class="top-menu__link-text">Видеоклипы</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <ul class="top-menu__social-container">
+                <li class="top-menu__item">
+                  <a class="top-menu__link" href="https://vk.com/reinat" target="_blank">
+                    <img src="./icons/vk-logo.svg" class="top-menu__icon"></img>
+                    <p class="top-menu__link-text">Вконтакте</p>
+                  </a>
+                </li>
+                <li class="top-menu__item">
+                  <a class="top-menu__link" href="https://www.instagram.com/cookiepatov/" target="_blank">
+                    <img src="./icons/instagram-logo.svg" class="top-menu__icon"></img>
+                    <p class="top-menu__link-text">Instagramm</p>
+                  </a>
+                </li>
+                <li class="top-menu__item">
+                  <a class="top-menu__link" href="https://www.youtube.com/channel/UC0MiWN7XqUyHK64XtUZkCgw"
+                    target="_blank">
+                    <img src="./icons/youtube-logo.svg" class="top-menu__icon"></img>
+                    <p class="top-menu__link-text">YouTube</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="fullscreen-photo hide">
+            <nav class="fullscreen-photo__buttons-container">
+              <button class="fullscreen-photo__button fullscreen-photo__button_type_close"></button>
+              <div class="fullscreen-photo__nav-buttons">
+                <button type="button" class="fullscreen-photo__button fullscreen-photo__button_type_previous"></button>
+                <button type="button" class="fullscreen-photo__button fullscreen-photo__button_type_next"></button>
+              </div>
+            </nav>
+            <img src="#" alt="Фотография" class="fullscreen-photo__img">
+        </div>
 
+      </div>
     </header>
     <main>
-      <div class="fullscreen-photo hide">
-        <div class="fullscreen-photo__block">
-          <img src="#" alt="Фотография" class="fullscreen-photo__img">
-          <nav class="fullscreen-photo__buttons-container">
-            <div class="fullscreen-photo__nav-buttons">
-              <a href="#" class="fullscreen-photo__button fullscreen-photo__button_type_previous">&#8592;</a>
-              <a href="#" class="fullscreen-photo__button fullscreen-photo__button_type_next">&#8594;</a>
-            </div>
-            <div class="fullscreen-photo__nav-buttons">
-              <a href="#" class="fullscreen-photo__button fullscreen-photo__button_type_close">&times;</a>
-            </div>
-          </nav>
-        </div>
-      </div>
       <div class="background-forms-container">
         <img class="background-form background-form_type_lines" src="background-forms/lines.svg">
         <img class="background-form background-form_type_triangle" src="background-forms/empty triangle.svg">

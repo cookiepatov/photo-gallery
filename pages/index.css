@@ -10,6 +10,8 @@
 
 @import url(../blocks/header/header.css);
 
+@import url(../blocks/overlay-container/overlay-container.css);
+
 @import url(../blocks/top-menu/top-menu.css);
 @import url(../blocks/top-menu/__navigation-container/top-menu__navigation-conainer.css);
 @import url(../blocks/top-menu/__links/top-menu__links.css);
@@ -24,6 +26,8 @@
 @import url(../blocks/fullscreen-photo/__img/fullscreen-photo__img.css);
 @import url(../blocks/fullscreen-photo/__buttons-container/fullscreen-photo__buttons-container.css);
 @import url(../blocks/fullscreen-photo/__nav-buttons/fullscreen-photo__nav-buttons.css);
+@import url(../blocks/fullscreen-photo/__button/_type/fullscreen-photo__button_type_previous.css);
+@import url(../blocks/fullscreen-photo/__button/_type/fullscreen-photo__button_type_next.css);
 @import url(../blocks/fullscreen-photo/__button/fullscreen-photo__button.css);
 @import url(../blocks/fullscreen-photo/__button/_type/fullscreen-photo__button_type_close.css);
 
