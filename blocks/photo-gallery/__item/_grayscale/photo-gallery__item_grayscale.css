@@ -1,0 +1,9 @@
+.photo-gallery__item_grayscale {
+    transition: 0.5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+
+.photo-gallery__item_grayscale:hover {
+    filter: grayscale(0);
+}

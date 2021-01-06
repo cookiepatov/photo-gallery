@@ -1,11 +1,9 @@
 .photo-gallery__item {
     width: 100%;
     transition: 0.5s ease-in-out;
-    filter: grayscale(100%);
 }
 
 
 .photo-gallery__item:hover {
     transform: scale(1.1);
-    filter: grayscale(0);
 }

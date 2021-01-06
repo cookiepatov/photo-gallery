@@ -1,0 +1,20 @@
+.top-menu__light-on {
+    background-position: center;
+    background-image: url(../../../icons/fireworks.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    background-color: transparent;
+    border: none;
+    filter: grayscale(100%);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.top-menu__light-on:hover {
+    filter: grayscale(0);
+}
+
+.top-menu__light-on:focus {
+    outline: 0;
+}

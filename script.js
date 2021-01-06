@@ -5,12 +5,14 @@ const closeButton = document.querySelector('.fullscreen-photo__button_type_close
 const nextButton = document.querySelector('.fullscreen-photo__button_type_next');
 const prevButton = document.querySelector('.fullscreen-photo__button_type_previous');
 const fullScreenBackground = document.querySelector('.fullscreen-photo');
+const lightOnBtn = document.querySelector('.top-menu__light-on');
 const body = document.querySelector('.body');
+const photoItems = document.querySelectorAll('.photo-gallery__item');
 const photoList = getPhotoList();
 let prev;
 let next;
 function getPhotoList(){
-    const photoObjectList = document.querySelectorAll('.photo-gallery__item');
+    const photoObjectList = photoItems;
     const photoList=[];
     for (let i=0;i<photoObjectList.length;i++)
     {
@@ -63,6 +65,14 @@ hideFullScreen = (e) => {
     body.classList.toggle('stop-scrolling');
 }
 
+toggleLight = (e) => {
+    e.preventDefault;
+    console.log('11');
+    photoItems.forEach(photo => {
+        photo.classList.toggle('photo-gallery__item_grayscale');
+    });
+    
+}
 
 function init() {
     gallery.addEventListener('click', function(e) {
@@ -71,6 +81,7 @@ function init() {
             loadPhoto(e.target.attributes.src.value);
         }
     })
+    lightOnBtn.addEventListener('click', toggleLight);
     closeButton.addEventListener('click', hideFullScreen);
     prevButton.addEventListener('click', function(e) {
         e.preventDefault();

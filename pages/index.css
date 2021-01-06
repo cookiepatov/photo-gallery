@@ -13,6 +13,7 @@
 
 @import url(../blocks/top-menu/top-menu.css);
 @import url(../blocks/top-menu/__navigation-container/top-menu__navigation-conainer.css);
+@import url(../blocks/top-menu/__light-on/top-menu__light-on.css);
 @import url(../blocks/top-menu/__links/top-menu__links.css);
 @import url(../blocks/top-menu/__item/top-menu__item.css);
 @import url(../blocks/top-menu/__icon/top-menu__icon.css);
@@ -51,6 +52,7 @@
 @import url(../blocks/photo-gallery/photo-gallery.css);
 @import url(../blocks/photo-gallery/__grid/photo-gallery__grid.css);
 @import url(../blocks/photo-gallery/__item/photo-gallery__item.css);
+@import url(../blocks/photo-gallery/__item/_grayscale/photo-gallery__item_grayscale.css);
 @import url(../blocks/photo-gallery/__item/_type/photo-gallery__item_type_long.css);
 @import url(../blocks/photo-gallery/__item/_type/photo-gallery__item_type_panoramic.css);
 @import url(../blocks/photo-gallery/__item/_type/photo-gallery__item_type_ultra-panoramic.css);
