@@ -1,16 +1,9 @@
 .fullscreen-photo__button {
     margin: 0;
     color: black;
-    text-decoration: none;
-    transition: opacity 0.2s ease-in-out;
-    line-height: 20px;
-    font-size: 40px;
-    font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    opacity: 0.3;
+    transition: 0.2s ease-in-out;
+    opacity: 0.6;
+    cursor: pointer;
 }
   
 .fullscreen-photo__button:focus {
@@ -18,5 +11,6 @@
 }
 
 .fullscreen-photo__button:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
+

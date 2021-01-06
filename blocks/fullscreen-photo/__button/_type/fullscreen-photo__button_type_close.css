@@ -1,4 +1,26 @@
 .fullscreen-photo__button_type_close {
-    padding-top: 10px;
+    z-index: 2;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-image: url(../../../../icons/close.svg);
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
 }
-  
+
+.fullscreen-photo__button_type_close:hover {
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 820px) {
+    .fullscreen-photo__button_type_close {
+      width: 20px;
+      height: 20px;
+      top: 60px;
+    }
+  }

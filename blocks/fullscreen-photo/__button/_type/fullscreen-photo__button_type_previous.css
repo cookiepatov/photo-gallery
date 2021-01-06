@@ -1,10 +1,21 @@
 .fullscreen-photo__button_type_previous {
-    background-image: url(../../../../icons/arrow.svg);
-    height: 250px;
-    width: 250px;
-    transform: rotate(180deg);
+    background-image: url(../../../../icons/arrow-left.svg);
+    height: 80px;
+    width: 80px;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: transparent;
     border: none;
 }
+
+
+.fullscreen-photo__button_type_previous:hover {
+    transform: translateX(-10px);
+}
+
+@media screen and (max-width: 820px) {
+    .fullscreen-photo__button_type_previous {
+      width: 30px;
+      height: 30px;
+    }
+  }
