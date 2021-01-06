@@ -71,6 +71,7 @@ toggleLight = (e) => {
     photoItems.forEach(photo => {
         photo.classList.toggle('photo-gallery__item_grayscale');
     });
+    lightOnBtn.classList.toggle('top-menu__light-on_reverse');
     
 }
 

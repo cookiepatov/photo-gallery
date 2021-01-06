@@ -14,6 +14,7 @@
 @import url(../blocks/top-menu/top-menu.css);
 @import url(../blocks/top-menu/__navigation-container/top-menu__navigation-conainer.css);
 @import url(../blocks/top-menu/__light-on/top-menu__light-on.css);
+@import url(../blocks/top-menu/__light-on/_reverse/top-menu__light-on_reverse.css);
 @import url(../blocks/top-menu/__links/top-menu__links.css);
 @import url(../blocks/top-menu/__item/top-menu__item.css);
 @import url(../blocks/top-menu/__icon/top-menu__icon.css);

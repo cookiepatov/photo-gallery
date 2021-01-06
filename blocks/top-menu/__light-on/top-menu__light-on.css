@@ -11,6 +11,14 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width: 820px) {
+    .top-menu__light-on {
+        width: 30px;
+    }
+
+}
+
 .top-menu__light-on:hover {
     filter: grayscale(0);
 }

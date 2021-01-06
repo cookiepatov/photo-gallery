@@ -1,0 +1,7 @@
+.top-menu__light-on_reverse {
+    filter: grayscale(0);
+}
+
+.top-menu__light-on_reverse:hover {
+    filter: grayscale(100%);
+}
