@@ -7,6 +7,8 @@
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/top-menu/top-menu.css);
+
+@import url(../blocks/overlay-container/overlay-container.css);
 @import url(../blocks/top-menu/__navigation-container/top-menu__navigation-conainer.css);
 @import url(../blocks/top-menu/__item/top-menu__item.css);
 @import url(../blocks/top-menu/__icon/top-menu__icon.css);

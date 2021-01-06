@@ -9,3 +9,11 @@
     box-sizing: border-box;
     object-fit: cover;
 }
+
+
+@media screen and (max-width: 820px)
+{
+  .fullscreen-photo__img {
+    top: 47%;
+  }
+}

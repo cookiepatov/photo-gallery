@@ -1,0 +1,13 @@
+@keyframes move-v5 {
+    from {
+      transform: translate(40px, 120px);
+    }
+  
+    to {
+      transform: translate(280px, 150px);
+    }
+}
+.background-form_variant_5 {
+    
+    animation: 4s infinite alternate ease-in-out move-v5;
+}

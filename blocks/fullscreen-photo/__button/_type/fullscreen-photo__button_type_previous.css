@@ -18,4 +18,7 @@
       width: 30px;
       height: 30px;
     }
+    .fullscreen-photo__button_type_previous:hover {
+        transform: translateX(-2px);
+    }
   }

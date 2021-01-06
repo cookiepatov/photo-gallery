@@ -1,0 +1,13 @@
+@keyframes move-v3 {
+    from {
+      transform: translate(120px, 0);
+    }
+  
+    to {
+      transform: translate(150px, 20px);
+    }
+}
+.background-form_variant_3 {
+    
+    animation: 3s infinite alternate ease-in-out move-v3;
+}

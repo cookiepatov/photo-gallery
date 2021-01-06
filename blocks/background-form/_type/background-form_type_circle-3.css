@@ -1,0 +1,18 @@
+@keyframes move-c3 {
+    from {
+      transform: translate(0, 0);
+    }
+  
+    to {
+      transform: translate(150px, 200px);
+    }
+}
+  
+
+
+.background-form_type_circle-3 {
+    background-image: url(../../../icons/background-circle-3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: 10s infinite alternate ease-in-out move-c3;
+}
