@@ -1,5 +1,6 @@
 .root { 
     margin: 0 auto;
-    font-family: arial, 'helvetica neue', helvetica, sans-serif;
-    z-index: 0;
+    font-family: Inter, arial, 'helvetica neue', helvetica, sans-serif;
+    z-index: -1;
+    background-color: rgba(20, 21, 22, 0.5)
 }

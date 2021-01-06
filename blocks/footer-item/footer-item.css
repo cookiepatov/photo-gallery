@@ -1,0 +1,25 @@
+.footer-item {
+    margin-left: 10px;
+}
+
+.footer-item:hover .footer-item__link-text {
+    width: 70px;
+}
+
+
+
+@media screen and (max-width: 820px)
+{
+  .footer-item:hover .footer-item__link-text {
+    width: auto;
+  }
+
+  .footer-item {
+    transition: 0.2s ease-in-out;
+  }
+
+  .footer-item:hover
+  {
+    opacity: 0.7;
+  }
+}

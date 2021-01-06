@@ -4,9 +4,9 @@
     width: 100%;
     height: 60px;
     list-style: none;
-    background-color: white;
-    box-sizing: border-box;
-    border: 1px solid black;
+    background-color: rgba(57, 62, 65,0.9);
+    box-sizing: border-box;/* 
+    border: 1px solid black; */
     list-style: none;
     z-index: 3;
 }

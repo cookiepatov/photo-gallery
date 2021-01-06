@@ -20,9 +20,16 @@
 @import url(../blocks/background-forms-container/background-forms-container.css);
 
 @import url(../blocks/background-form/background-form.css);
-@import url(../blocks/background-form/_type/background-form_type_circle.css);
-@import url(../blocks/background-form/_type/background-form_type_lines.css);
-@import url(../blocks/background-form/_type/background-form_type_triangle.css);
+@import url(../blocks/background-form/_type/background-form_type_circle-1.css);
+@import url(../blocks/background-form/_type/background-form_type_circle-2.css);
+@import url(../blocks/background-form/_type/background-form_type_circle-3.css);
+@import url(../blocks/background-form/_type/background-form_type_circle-4.css);
+@import url(../blocks/background-form/_type/background-form_type_circle-6.css);
+@import url(../blocks/background-form/_variant/background-form_variant_1.css);
+@import url(../blocks/background-form/_variant/background-form_variant_2.css);
+@import url(../blocks/background-form/_variant/background-form_variant_3.css);
+@import url(../blocks/background-form/_variant/background-form_variant_4.css);
+@import url(../blocks/background-form/_variant/background-form_variant_5.css);
 
 @import url(../blocks/content/content.css);
 
@@ -32,4 +39,10 @@
 @import url(../blocks/video-item/__iframe/video-item__iframe.css);
 @import url(../blocks/video-item/__caption/video-item__caption.css);
 
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/copyright/copyright.css);
+@import url(../blocks/footer-item/footer-item.css);
+@import url(../blocks/footer-item/__link/footer-item__link.css);
+@import url(../blocks/footer-item/__icon/footer-item__icon.css);
+@import url(../blocks/footer-item/__link-text/footer-item__link-text.css);

@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+    background-color: rgba(57, 62, 65,0.9);
+    position: relative;
+    z-index: 3;
+    margin-top: -60px;
+    min-height: 60px;
+}
+
+@media screen and (max-width: 820px)
+{
+ .footer {
+    padding-right: 15px;
+  }
+}

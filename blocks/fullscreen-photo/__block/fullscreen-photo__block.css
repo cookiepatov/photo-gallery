@@ -2,8 +2,3 @@
   display: flex;
 }
 
-@media screen and (max-height: 400px)
-{
-  .fullscreen-photo__block{
-  }
-}

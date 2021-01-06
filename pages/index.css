@@ -1,7 +1,6 @@
-
 @import url(../vendor/normalize.css);
 
-
+@import url(../vendor/fonts/Inter-Web/inter.css);
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/stop-scrolling/stop-scrolling.css);
@@ -57,3 +56,10 @@
 @import url(../blocks/photo-gallery/__item/_type/photo-gallery__item_type_ultra-panoramic.css);
 
 @import url(../blocks/footer/footer.css);
+
+@import url(../blocks/copyright/copyright.css);
+
+@import url(../blocks/footer-item/footer-item.css);
+@import url(../blocks/footer-item/__link/footer-item__link.css);
+@import url(../blocks/footer-item/__icon/footer-item__icon.css);
+@import url(../blocks/footer-item/__link-text/footer-item__link-text.css);

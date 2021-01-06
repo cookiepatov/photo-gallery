@@ -17,3 +17,17 @@
     top: 47%;
   }
 }
+
+@media screen and (max-height: 700px)
+{
+  .fullscreen-photo__img {
+    top: 55%;
+  }
+}
+
+@media screen and (max-height: 430px)
+{
+  .fullscreen-photo__img {
+    top: 57%;
+  }
+}

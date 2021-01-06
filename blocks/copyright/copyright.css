@@ -1,0 +1,15 @@
+.copyright {
+    margin: 0;
+    color: #eef6ff;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 820px)
+{
+  .copyright {
+    font-size: 12px;
+    text-align: center;
+  }
+}

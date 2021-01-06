@@ -4,15 +4,15 @@
     }
   
     to {
-      transform: translate(150px, 200px);
+      transform: translate(11.7vw, 15.6vw);
     }
 }
   
 
 
 .background-form_type_circle-3 {
-    background-image: url(../../../icons/background-circle-3.svg);
+    background-image: url(../../../background-forms/background-circle-3.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: 10s infinite alternate ease-in-out move-c3;
+    animation: 20s infinite alternate ease-in-out move-c3;
 }

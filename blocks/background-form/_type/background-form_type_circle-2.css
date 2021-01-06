@@ -1,18 +1,18 @@
 @keyframes move-c2 {
     0% {
-        transform: translate(300px, 150px);
+        transform: translate(23.4vw, 11.7vw);
     }
   
     100% {
-      transform: translate(40px, 120px);
+      transform: translate(3.1vw, 9.4vw);
     }
 }
   
 
 
 .background-form_type_circle-2 {
-    background-image: url(../../../icons/background-circle-2.svg);
+    background-image: url(../../../background-forms/background-circle-2.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    animation: 8s infinite alternate ease-in-out move-c2;
+    animation: 16s infinite alternate ease-in-out move-c2;
 }
