@@ -6,6 +6,7 @@
 @import url(../blocks/stop-scrolling/stop-scrolling.css);
 
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/_colored/root_colored.css);
 
 @import url(../blocks/header/header.css);
 
@@ -37,6 +38,7 @@
 @import url(../blocks/background-forms-container/background-forms-container.css);
 
 @import url(../blocks/background-form/background-form.css);
+@import url(../blocks/background-form/_colored/background-form_colored.css);
 @import url(../blocks/background-form/_type/background-form_type_circle-1.css);
 @import url(../blocks/background-form/_type/background-form_type_circle-2.css);
 @import url(../blocks/background-form/_type/background-form_type_circle-3.css);

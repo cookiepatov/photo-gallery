@@ -9,6 +9,8 @@ const lightOnBtn = document.querySelector('.top-menu__light-on');
 const body = document.querySelector('.body');
 const photoItems = document.querySelectorAll('.photo-gallery__item');
 const photoList = getPhotoList();
+const root = document.querySelector('.root');
+const backgroundForms = document.querySelectorAll('.background-form');
 let prev;
 let next;
 function getPhotoList(){
@@ -72,6 +74,10 @@ toggleLight = (e) => {
         photo.classList.toggle('photo-gallery__item_grayscale');
     });
     lightOnBtn.classList.toggle('top-menu__light-on_reverse');
+    root.classList.toggle('root_colored');
+    backgroundForms.forEach(form => {
+        form.classList.toggle('background-form_colored');
+    })
     
 }
 
@@ -117,9 +123,3 @@ function init() {
 }
 
 init();
-
-
-
-
-
-

@@ -3,16 +3,20 @@
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/root/root.css);
+@import url(../blocks/root/_colored/root_colored.css);
 
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/top-menu/top-menu.css);
 
 @import url(../blocks/overlay-container/overlay-container.css);
+@import url(../blocks/top-menu/top-menu.css);
 @import url(../blocks/top-menu/__navigation-container/top-menu__navigation-conainer.css);
+@import url(../blocks/top-menu/__light-on/top-menu__light-on.css);
+@import url(../blocks/top-menu/__light-on/_reverse/top-menu__light-on_reverse.css);
+@import url(../blocks/top-menu/__links/top-menu__links.css);
 @import url(../blocks/top-menu/__item/top-menu__item.css);
 @import url(../blocks/top-menu/__icon/top-menu__icon.css);
-@import url(../blocks/top-menu/__links/top-menu__links.css);
 @import url(../blocks/top-menu/__link/top-menu__link.css);
 @import url(../blocks/top-menu/__link-text/top-menu__link-text.css);
 @import url(../blocks/top-menu/__social-container/top-menu__social-container.css);
@@ -20,6 +24,7 @@
 @import url(../blocks/background-forms-container/background-forms-container.css);
 
 @import url(../blocks/background-form/background-form.css);
+@import url(../blocks/background-form/_colored/background-form_colored.css);
 @import url(../blocks/background-form/_type/background-form_type_circle-1.css);
 @import url(../blocks/background-form/_type/background-form_type_circle-2.css);
 @import url(../blocks/background-form/_type/background-form_type_circle-3.css);
