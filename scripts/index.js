@@ -69,7 +69,6 @@ hideFullScreen = (e) => {
 
 toggleLight = (e) => {
     e.preventDefault;
-    console.log('11');
     photoItems.forEach(photo => {
         photo.classList.toggle('photo-gallery__item_grayscale');
     });
